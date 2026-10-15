@@ -54,3 +54,83 @@ footer {
   border-top: 1px solid #ffcc00;
   font-size: 0.9rem;
 }
+/* ===== NAVIGATION UPGRADE ===== */
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.site-header nav a {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ffcc00;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+.site-header nav a:hover {
+  background: #ffcc00;
+  color: #001f3f;
+}
+
+/* ===== PAGE HEADERS ===== */
+h1, h2, h3 {
+  color: #ffcc00;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #ffcc00;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* ===== CONTENT BOXES ===== */
+section {
+  background: #102542;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #ffcc00;
+  border-radius: 6px;
+}
+
+/* ===== MOBILE FRIENDLY ===== */
+@media (max-width: 600px) {
+  .tiles {
+    flex-direction: column;
+  }
+
+  .site-header nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tile {
+    flex: 1 1 auto;
+  }
+}
+/* ===== COMMAND BANNER ===== */
+.command-banner {
+  background: linear-gradient(90deg, #001f3f, #003366);
+  padding: 1.5rem;
+  border-bottom: 4px solid #ffcc00;
+  text-align: center;
+}
+
+.command-banner h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #ffcc00;
+  letter-spacing: 1px;
+}
+
+.command-banner p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: #ffffff;
+  opacity: 0.9;
+}
